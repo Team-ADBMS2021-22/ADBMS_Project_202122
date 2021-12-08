@@ -19,12 +19,27 @@
             <td class="dashboard__headings">Login</td>
             <td class="dashboard__headings">Sign Out</td>
             <td class="dashboard__headings">Duration</td>
-            <td class="dashboard__headings">Work Duration</td>
+            <td class="dashboard__headings">Work Completed</td>
         </th>
-        <% const n=1;
-        for(i=0;i<n;i++){ %>
+        <% if(userData.length!=0){
+            var=1;
+            userData.forEach(function(data){
+            %>
         <% } %>
-        <%- //include('layout/admin_dahboard.ejs') %>
+        <tr class="dashboard__data">
+            <td><%=data._id; %></td>
+            <td><%=data.name; %></td>
+            <td><%=data.login; %></td>
+            <td><%=data.logout; %></td>
+            <td><%=data.logout-data.login;%></td>
+            <td><%=data.work;%></td>
+        </tr>
+        <% i++; }) %>
+        <%} else{ %>
+            <tr>
+                <td colspan="6">No data Found</td>
+            </tr>
+        <% } %>
     </table>
     <%- include('layout/footer.ejs') %>
 </body>

@@ -1,9 +1,11 @@
 const express = require("express");
+const { appendFile } = require("fs");
 const path = require("path");
 const router = express.Router();
+const employee = require(path.join(__dirname,"..","controller","employee.js"));
 
-const response = router.get('/', (req, res, next) => {
-    res.render(path.join(__dirname,"..","views","employee.ejs"));
-});
+router.get('/', employee.userForm);
 
-exports.employee = response;
+router.post('/updated', employee.createData);
+
+exports.employee = router;

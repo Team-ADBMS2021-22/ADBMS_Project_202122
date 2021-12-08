@@ -30,6 +30,15 @@
 }
 
 .login__input{
-    width: 60%;
+    width: 100%;
     margin: 1vh auto;
+}
+
+.login__time{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.login__label{
+    text-align: left;
 }
