@@ -1,0 +1,12 @@
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 6px;
+    justify-content: center;
+    width: 100vw;
+    background: var(--blue-700);
+}
+
+.copyright{
+    text-align: center;
+}

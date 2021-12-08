@@ -1,0 +1,23 @@
+<%- include('layout/header.ejs') %>
+<link rel="stylesheet" href="css/employee.css">
+</head>
+<body>
+    <%- include('layout/navbar.ejs') %>
+    <div class="login">
+        <form action="" method="post">
+            <div class="login__inputs">
+                <input type="text" placeholder="ID" class="login__input" name="id" required>
+                <input type="text" placeholder="Task Completed" class="login__input" name="task" required>
+            </div>
+            <div class="login__statusInfo">
+                <label for="status">Status</label>
+                <div class="login__status">
+                    <button type="submit" value="login">Login</button>
+                    <button type="submit" value="signout">Sign Out</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <%- include('layout/footer.ejs') %>
+</body>
+</html>

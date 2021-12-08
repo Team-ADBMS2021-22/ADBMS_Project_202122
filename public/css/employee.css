@@ -1,0 +1,35 @@
+.login{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    align-items: center;
+    align-content: center;
+    height:auto;
+    justify-content: center;
+    justify-items: center;
+    background-color:var(--blue-700);
+    padding: 10vh;
+    border-radius: 10px;
+    text-align: center;
+    margin:10vh auto;
+    color: var(--blue-100);
+}
+
+.login__status button{
+    background: var(--blue-100);
+    border: 0px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px;
+    color:var(--white-100);
+}
+
+.login__inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__input{
+    width: 60%;
+    margin: 1vh auto;
+}

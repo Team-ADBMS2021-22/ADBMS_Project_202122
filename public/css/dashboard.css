@@ -1,0 +1,52 @@
+header{
+    display: grid;
+    background-color: var(--blue-700);
+    grid-template-columns: auto 6vw;
+}
+
+.company{
+    width: fit-content;
+    align-content: left;
+}
+
+.company__img{
+    height: 6vh;
+    padding: 1vh 1vh;
+}
+
+.signout{
+    width: fit-content;
+    align-self: right;
+    background: var(--blue-700);
+    color: var(--white-100);
+    height: auto;
+    justify-items: center;
+    padding: 2vh 0;
+}
+
+.signout__button{
+    height: auto;
+    width:inherit;
+    background: var(--blue-100);
+    color: var(--white-100);
+    align-items: center;
+    border-radius: 12px;
+    padding: 1vh;
+    border: 0px;
+}
+
+.dashboard{
+    width: 80vw;
+    margin: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dashboard__heading{
+    justify-items: center;
+}
+
+.dashboard__headings{
+    border: 1px solid var(--blue-200);
+    text-align: center;
+}

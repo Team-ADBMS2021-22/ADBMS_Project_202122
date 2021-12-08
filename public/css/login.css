@@ -1,0 +1,27 @@
+.login{
+    width: 100vw;
+    padding: 10vh 0;
+}
+
+.login__section{
+    text-align: center;
+    padding: 6px;
+}
+
+.login__buttons{
+    text-align: center;
+}
+
+.login__button{
+    background: var(--blue-100);
+    border: 0px;
+    border-radius: 6px;
+    padding: 6px;
+    color:var(--white-100);
+    margin: 6px;
+}
+
+.links{
+    text-decoration: none;
+    color: var(-blue-100);
+}

@@ -1,0 +1,31 @@
+<%- include('layout/header.ejs') %>
+<link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <header>
+        <div class="comapany">
+            <img src="images/project.png" alt="Logo" class="company__img">
+        </div>
+
+        <div class="signout">
+            <button class="signout__button">Signout</button>
+        </div>
+    </header>
+
+    <table class="dashboard">
+        <th class="dashboard__heading">
+            <td class="dashboard__headings">Id</td>
+            <td class="dashboard__headings">Name</td>
+            <td class="dashboard__headings">Login</td>
+            <td class="dashboard__headings">Sign Out</td>
+            <td class="dashboard__headings">Duration</td>
+            <td class="dashboard__headings">Work Duration</td>
+        </th>
+        <% const n=1;
+        for(i=0;i<n;i++){ %>
+        <% } %>
+        <%- //include('layout/admin_dahboard.ejs') %>
+    </table>
+    <%- include('layout/footer.ejs') %>
+</body>
+</html>

@@ -1,0 +1,11 @@
+:root{
+    --blue-100:#193498;
+    --blue-200:#113CFC;
+    --blue-300: #1597E5;
+    --blue-700: #69DADB;
+    --white-100: #EEEEEE;
+}
+
+*{
+    margin: 0px;
+}

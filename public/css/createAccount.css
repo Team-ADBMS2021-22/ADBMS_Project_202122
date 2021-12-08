@@ -1,0 +1,54 @@
+.createAccount{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12vh 0; 
+}
+.login{
+    width: auto;
+}
+
+.login__section{
+    justify-content: center;
+    text-align: center;
+}
+
+.form__section{
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.form__label{
+    font-size:large;
+    width:fit-content;
+    min-width: 20vw;
+}
+
+.form__input{
+    width: 30vw;
+    justify-self: left;
+}
+
+.login__buttons{
+    text-align: center;
+    padding: 12px;
+}
+
+.from__button{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-self: center;
+}
+
+.form__buttons{
+    margin: 6px;
+    border-radius: 6px;
+    border: 0px;
+    background: var(--blue-100);
+    color: var(--white-100);
+    padding: 12px;
+    font-size: 1rem;
+}

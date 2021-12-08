@@ -1,0 +1,31 @@
+.header{
+    display: grid;
+    grid-template-columns: auto 6vw;
+    background: var(--blue-700);
+    margin: 0px;
+    min-height: 6vh;
+}
+
+.logo{
+    width:100%;
+}
+
+.logo__link, .user_profile__link{
+    text-decoration: none;
+    color:black;
+}
+
+.logo_img{
+    height: 6vh;
+    margin: 1vh 2vw;
+}
+
+.user_profile{
+    width: 100%;
+    justify-content: right;
+}
+
+.user{
+    height:6vh;
+    margin: 1vh 2vw;
+}
